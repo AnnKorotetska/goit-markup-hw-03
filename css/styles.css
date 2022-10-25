@@ -145,6 +145,10 @@ img {
   margin-right: 50px;
 }
 
+.header-border {
+  border-bottom: 1px solid #ececec;
+}
+
 .hero {
   background-color: var(--secondary-background-color);
   text-align: center;
@@ -183,7 +187,6 @@ img {
   min-height: 50px;
   border: transparent;
   margin: 0 auto;
-  display: block;
 }
 
 .list-btn:not(:last-child) {
@@ -209,7 +212,7 @@ img {
 }
 
 .section:nth-child(4n) {
-  background-color: var(--button-bg-color);
+  background-color: #f5f4fa;
 }
 
 .facts-container {
